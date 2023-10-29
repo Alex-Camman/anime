@@ -1,0 +1,11 @@
+// V3
+
+import anime from 'animejs';
+
+const animation = anime({
+  targets: 'div',
+  translateX: 100,
+  translateY: { value: 50, ease: 'easeOutExpo' },
+  direction: 'alternate',
+  easing: 'easeOutQuad',
+});
